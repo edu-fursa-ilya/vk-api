@@ -15,7 +15,8 @@ import java.util.Set;
 public class Main {
 
     public static void main(String[] args) throws IOException, JSONException, SQLException, ClassNotFoundException {
-     /*
+/*
+
         HttpRequest httpRequest = new HttpRequest();
         Scanner sc = new Scanner(System.in);
 
@@ -41,9 +42,11 @@ public class Main {
 
         StatisticAnalyzer analyzer = new StatisticAnalyzer();
         analyzer.printAll(ids, uid1, uid2);
+*/
 
-        */
 
+        HttpRequest httpRequest = new HttpRequest();
+        httpRequest.getMutualFriends(20339668, 69687163);
         DatabaseManager databaseManager = new DatabaseManager();
         databaseManager.printAll();
 
