@@ -13,10 +13,6 @@ public interface Analyzer {
 
     int getFemaleCount(List<String> ids) throws IOException, JSONException;
 
-    Map<String, Integer> getCityCounter(List<String> ids);
-
-    int getAverageAge(List<String> ids);
-
     User getUserObject(int uid) throws IOException, JSONException;
 
     int getMutualFriendsCount(List<String> ids);

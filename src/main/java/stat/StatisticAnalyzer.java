@@ -40,16 +40,6 @@ public class StatisticAnalyzer implements Analyzer {
     }
 
     @Override
-    public Map<String, Integer> getCityCounter(List<String> ids) {
-        return null;
-    }
-
-    @Override
-    public int getAverageAge(List<String> ids) {
-        return 0;
-    }
-
-    @Override
     public User getUserObject(int uid) throws IOException, JSONException {
         httpRequest = new HttpRequest();
         return httpRequest.getUserInfoByUid(uid);
