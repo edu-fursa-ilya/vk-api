@@ -18,5 +18,5 @@ public class Const {
     public static final String PG_SQL_DB_URL = "";
     public static final String PG_SQL_DB_TABLE_NAME = "";
 
-    public static final String VK_API_TOKEN = "90357ed6bdc787d66249eb2992dd31644514be45df27579f7fe7eea8ab7aacc37eafd6c595828db58f454";
+    public static final String VK_API_TOKEN = "";
 }
